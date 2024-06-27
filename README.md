@@ -1,3 +1,6 @@
+
+# This is a simple code editior with a preview. Both window is moveable and style like a 90s windows.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
