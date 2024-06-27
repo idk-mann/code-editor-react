@@ -6,13 +6,13 @@ import './App.css';
 const initialMarkdown = `
 # Welcome to my React Markdown Previewer!
 
-## This is a sub-heading...
+## This is a sub-heading...# for headings basically
 ### And here's some other cool stuff:
 
 Here's some code, \`<div></div>\`, between 2 backticks.
 
 \`\`\`
-// This is a multi-line code block:
+// This is a multi-line code block: between 3 backticks.
 
 function anotherExample(firstLine, lastLine) {
   if (firstLine == \`\`\` && lastLine == \`\`\`) {
@@ -26,8 +26,11 @@ Or _italic_.
 Or... wait for it... **_both!_**
 And feel free to go crazy ~~crossing stuff out~~.
 
-There's also [links](https://www.freecodecamp.com), and
+There's also [links](https://www.youtube.com/watch?v=dQw4w9WgXcQ), and
+
 > Block Quotes!
+
+>Life is an adventure on its own...
 
 - And of course there are lists.
   - Some are bulleted.
@@ -36,9 +39,9 @@ There's also [links](https://www.freecodecamp.com), and
 
 1. And there are numbered lists too.
 1. Use just 1s if you want!
-1. But the list goes on...
+1. But the list goes on.........
 
-![React Logo w/ Text](https://goo.gl/Umyytc)
+
 `;
 
 class App extends Component {
