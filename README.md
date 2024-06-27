@@ -1,5 +1,5 @@
 
-# This is a simple code editior with a preview. Both window is moveable and styled like a 90s windows.
+# This is a simple code editor with a preview. Both window is moveable and styled like a 90s windows.
 
 # Getting Started with Create React App
 
