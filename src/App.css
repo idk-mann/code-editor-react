@@ -6,7 +6,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Arial', sans-serif;
-  overflow: hidden; /* Prevents scrolling when dragging */
+  overflow: hidden; 
 }
 
 .window {
@@ -17,13 +17,14 @@ body {
   position: absolute; /* Necessary for dragging */
 }
 
+/* The title on top of the window */
 .title-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(to right, #000080, #0000FF);
   color: #fff;
-  padding: 2px;
+  padding: 5px;
   font-size: 14px;
   cursor: move; /* Indicates draggable area */
   user-select: none; /* Prevents text selection while dragging */
